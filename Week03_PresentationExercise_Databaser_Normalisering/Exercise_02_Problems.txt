@@ -1,0 +1,7 @@
+I den ursprungliga tabellen fann jag följande problem:
+
+Redundans: Lärarnas namn och klassnamn upprepas för varje elev.
+
+Uppdateringsanomali: Om en lärare byter namn måste vi ändra det på flera rader, annars blir datan inkonsekvent.
+
+Raderingsanomali: Om vi tar bort den enda eleven i Physics-101 försvinner även informationen om att klassen och läraren existerar.

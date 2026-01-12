@@ -1,0 +1,7 @@
+Identifierade problem i Övning 1:
+
+Redundans: Kundnamn (t.ex. "Alice") upprepas för varje order, vilket slösar utrymme.
+
+Uppdateringsanomali: Om en kund byter namn måste vi ändra det på varje enskild orderrad.
+
+Raderingsanomali: Om vi tar bort en order försvinner även informationen om vad produkten (t.ex. "Bok") kostar.
